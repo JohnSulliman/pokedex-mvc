@@ -1,0 +1,27 @@
+{
+  "name": "landing-page-node",
+  "version": "1.0.0",
+  "description": "Projeto do módulo 2 da Blue EdTech",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnSulliman/landing-page-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnSulliman/landing-page-node/issues"
+  },
+  "homepage": "https://github.com/JohnSulliman/landing-page-node#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}

@@ -1,2 +1,2 @@
-# pokedex-mvc
-Projeto módulo 2, Front-End para a Blue-EdTech
+# landing-page-node
+Projeto do módulo 2 da Blue EdTech

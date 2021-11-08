@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Pokedéx/Captura</title>
+</head>
+
+<body>
+    <nav id='navbar'>
+        <img src='img/logo.png' width='200px'/>
+    </nav>
+
+    <header>
+        <a href='/'>
+            <img src='img/pokebola.png' width='35px'/>
+            <p>Cancelar</p>
+        </a>
+    </header>
+    <section class='body-cadastro'>
+        <h1>Captura</h1>
+        <small>Capture seu pokémon aqui!</small>
+
+        <form id='form' action='/sent' method='POST'> 
+            <div class='cadastro'>
+                <section>
+                    <h3>Informações Principais</h3>
+                    <div class='cadastro-infos'>
+                        <div>
+                            <label for='name'>Nome: </label>
+                            <input class='input' name='name' required />
+                        </div>
+                        <div>
+                            <label for='image'>Imagem: </label>
+                            <input class='input' placeholder='URL da imagem' name='image' required />
+                        </div>
+                        <div>
+                            <label for='type1'>Tipo: </label>
+                            <select class='select' name='type1' required >
+                                <option value=''>Tipo primário</option>
+                                <option value='Inseto'>Inseto</option>
+                                <option value='Noturno'>Noturno</option>
+                                <option value='Dragão'>Dragão</option>
+                                <option value='Elétrico'>Elétrico</option>
+                                <option value='Fada'>Fada</option>
+                                <option value='Lutador'>Lutador</option>
+                                <option value='Fogo'>Fogo</option>
+                                <option value='Voador'>Voador</option>
+                                <option value='Fantasma'>Fantasma</option>
+                                <option value='Grama'>Grama</option>
+                                <option value='Terra'>Terra</option>
+                                <option value='Gelo'>Gelo</option>
+                                <option value='Normal'>Normal</option>
+                                <option value='Venenoso'>Venenoso</option>
+                                <option value='Psíquico'>Psíquico</option>
+                                <option value='Pedra'>Pedra</option>
+                                <option value='Aço'>Aço</option>
+                                <option value='Água'>Água</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for='type2'>Tipo: </label>
+                            <select class='select' name='type2'>
+                                <option value=''>Tipo primário</option>
+                                <option value='Inseto'>Inseto</option>
+                                <option value='Noturno'>Noturno</option>
+                                <option value='Dragão'>Dragão</option>
+                                <option value='Elétrico'>Elétrico</option>
+                                <option value='Fada'>Fada</option>
+                                <option value='Lutador'>Lutador</option>
+                                <option value='Fogo'>Fogo</option>
+                                <option value='Voador'>Voador</option>
+                                <option value='Fantasma'>Fantasma</option>
+                                <option value='Grama'>Grama</option>
+                                <option value='Terra'>Terra</option>
+                                <option value='Gelo'>Gelo</option>
+                                <option value='Normal'>Normal</option>
+                                <option value='Venenoso'>Venenoso</option>
+                                <option value='Psíquico'>Psíquico</option>
+                                <option value='Pedra'>Pedra</option>
+                                <option value='Aço'>Aço</option>
+                                <option value='Água'>Água</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for='description'>Descrição: </label>
+                            <input class='input' name='description' />
+                        </div>
+                        <div>
+                            <label for='number'>Número: </label>
+                            <input class='input' type='number' name='number' required />
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>Adicionais</h3>
+                    <div class='cadastro-infos'>
+                        <div>
+                            <label for='height'>Altura: </label>
+                            <input class='input' type='number' name='height' />
+                        </div>
+                        <div>
+                            <label for='weight'>Peso: </label>
+                            <input class='input' type='number' name='weight' />
+                        </div>
+                        <div>
+                            <label for='category'>Categoria: </label>
+                            <input class='input' name='category' />
+                        </div>
+                        <div>
+                            <label for='abilities'>Habilidades: </label>
+                            <input class='input' name='abilities' />
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <button id='submitButton' type='submit'>
+                <img src='img/pokebola.png' width='35px'/>
+                <p>Gotcha!</p>
+            </button>
+        </form>
+    </section>
+
+    <footer id='footer'>
+        <small>
+            ©2021 Pokémon. TM, ®Nintendo.
+        </small>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Pokedéx</title>
+</head>
+
+<body>
+    <nav id='navbar'>
+        <img src='img/logo.png' width='200px'/>
+    </nav>
+
+    <header>
+        <% if(message != "") {  %>
+            <section id="message">
+                <p><%= message %></p> <span id="close">&times;</span>
+            </section>
+        <% }  %>
+        
+        <a href='/cadastro'>
+            <img src='img/pokebola.png' width='35px'/>
+            <p>Capturar</p>
+        </a>
+    </header>
+
+    <section class='body'>
+        <section class='card-list'>
+            <% pokemons.map( pokemon => { %>
+                <a href='/detalhes/<%= pokemon.number %>' >
+                    <div class='card'>
+                        <b>Nº <%= pokemon.number %></b>
+                        <img src='<%= pokemon.image %>' />
+                        <b><%= pokemon.name %></b>
+
+                        <% if(pokemon.type2 == '') { %>
+                            <p><b>Tipo</b>: <span id='<%=pokemon.type1 %>' ><%= pokemon.type1 %></span></p>
+                        <% } else { %>
+                            <p><b>Tipo</b>: <span id='<%=pokemon.type1 %>'><%= pokemon.type1 %></span> / <span id='<%=pokemon.type2 %>'><%= pokemon.type2 %></span></p>
+                        <% } %>
+                    </div>
+                </a>
+            <% }) %>
+        </section>
+    </section>
+
+    <footer id='footer'>
+        <small>
+            ©2021 Pokémon. TM, ®Nintendo.
+        </small>
+    </footer>
+    
+    <script src='/js/script.js'></script>
+</body>
+
+</html>

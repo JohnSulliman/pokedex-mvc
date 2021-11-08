@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Pokedéx/Detalhes</title>
+</head>
+<body>
+    <nav id='navbar'>
+        <img src='../img/logo.png' width='200px'/>
+    </nav>
+
+    <header>
+        <a href='/'>
+            <img src='../img/pokebola.png' width='35px'/>
+            <p>Voltar</p>
+        </a>
+    </header>
+
+    <section class='body'>
+        <% pokemons.map( pokemon => { %>
+            <h3>
+                <%= pokemon.name %>
+            </h3>
+        <% }) %>
+        <section class='card-details'>
+            <% pokemons.map( pokemon => { %>
+
+                <div class='details-image'>
+                    <img src="<%= pokemon.image%>" />
+                </div>
+
+                <div class='details-infos'>
+                    <p><b>Nº:</b> <%=pokemon.number %></p>
+                    <p><b>Tipo primário:</b> <span id='<%=pokemon.type1 %>'><%=pokemon.type1 %></span></p>
+                    <p><b>Tipo secundário:</b> <span id='<%=pokemon.type2 %>'><%=pokemon.type2 %></span></p>
+                    <p><b>Descrição:</b> <%=pokemon.description %></p>
+                    <p><b>Altura:</b> <%=pokemon.height %> m</p>
+                    <p><b>Peso:</b> <%=pokemon.weight %> kg</p>
+                    <p><b>Categoria:</b> <%=pokemon.category %></p>
+                    <p><b>Habilidade:</b> <%=pokemon.abilities  %></p>
+                </div>
+            <% }) %>
+        </section>
+    </section>
+
+    <footer id='footer'>
+        <small>
+            ©2021 Pokémon. TM, ®Nintendo.
+        </small>
+    </footer>
+    
+    <script src='/js/script.js'></script>
+</body>
+</html>
