@@ -209,15 +209,15 @@
 }
 
 #Noturno {
-  background-color: PeachPuff;
-  color: Black;
+  background-color: DimGrey;
+  color: White;
   padding: 2px;
   border-radius: 5px;
 }
 
 #Dragão {
-  background-color: PeachPuff;
-  color: Black;
+  background: linear-gradient(rgba(0, 153, 204, 0.7), transparent);
+  background-color: IndianRed;
   padding: 2px;
   border-radius: 5px;
 }
@@ -229,14 +229,14 @@
 }
 
 #Fada {
-  background-color: PeachPuff;
+  background-color: LightPink;
   color: Black;
   padding: 2px;
   border-radius: 5px;
 }
 
 #Lutador {
-  background-color: PeachPuff;
+  background-color: Chocolate;
   color: Black;
   padding: 2px;
   border-radius: 5px;
@@ -256,7 +256,7 @@
 }
 
 #Fantasma {
-  background-color: PeachPuff;
+  background-color: MediumPurple;
   color: Black;
   padding: 2px;
   border-radius: 5px;
@@ -306,7 +306,7 @@
 }
 
 #Aço {
-  background-color: PeachPuff;
+  background-color: LightSlateGray;
   color: Black;
   padding: 2px;
   border-radius: 5px;
