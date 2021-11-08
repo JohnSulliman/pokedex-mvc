@@ -98,7 +98,7 @@
   }
 
   .card p {
-    margin-bottom: 5px;
+    margin: 5px;
   }
 
   
@@ -205,6 +205,7 @@
 #Inseto {
   background-color: SeaGreen;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -212,6 +213,7 @@
   background-color: DimGrey;
   color: White;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -219,12 +221,14 @@
   background: linear-gradient(rgba(0, 153, 204, 0.7), transparent);
   background-color: IndianRed;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Elétrico {
   background-color: Gold;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -232,6 +236,7 @@
   background-color: LightPink;
   color: Black;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -239,12 +244,14 @@
   background-color: Chocolate;
   color: Black;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Fogo {
   background-color: DarkOrange;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -252,6 +259,7 @@
   background: linear-gradient(rgba(0, 191, 255, 0.7), transparent);
   background-color: DarkSlateBlue;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -259,24 +267,28 @@
   background-color: MediumPurple;
   color: Black;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Grama {
   background-color: MediumSeaGreen;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Terra {
   background-color: DarkGoldenrod;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Gelo {
   background-color: LightSkyBlue;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -284,6 +296,7 @@
   background-color: PeachPuff;
   color: Black;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -291,18 +304,21 @@
   background-color: DarkOrchid;
   color: White;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Psíquico {
   background-color: Violet;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Pedra {
   background-color: SaddleBrown;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
@@ -310,12 +326,14 @@
   background-color: LightSlateGray;
   color: Black;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
 #Água {
   background-color: DodgerBlue;
   padding: 2px;
+  border: 1px solid Black;
   border-radius: 5px;
 }
 
