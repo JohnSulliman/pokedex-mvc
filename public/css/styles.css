@@ -1,7 +1,9 @@
+@import url(//db.onlinewebfonts.com/c/900f8add35323c44ee840c611ed9a7a5?family=Pokemon+Classic);
+
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial;
+    font-family: "Pokemon Classic";
   }
 
   a {
@@ -23,6 +25,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 12px;
   }
 
   .body::-webkit-scrollbar, .body-cadastro::-webkit-scrollbar {
@@ -111,6 +114,7 @@
     background-size: 100%;
     background-position-y: -5px;
     transition: .3s;
+    font-size: 10px;
   }
 
   .card:hover {
@@ -144,6 +148,7 @@
     justify-content: space-around;
     padding: 20px;
     margin-top: 20px;
+    font-size: 11px;
   }
 
   .details-image {
@@ -211,11 +216,13 @@
 
   .input {
     margin: 10px;
+    font-size: 8px;
   }
 
   .select {
     margin: 10px;
-    width: 175px;
+    width: 190px;
+    font-size: 8px;
   }
 
   .registerButton {
