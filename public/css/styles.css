@@ -25,24 +25,8 @@
     text-align: center;
   }
 
-  .body::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  .body::-webkit-scrollbar-thumb {
-    background-color: #DCDCDC;
-    border-radius: 20px;
-    border: 2px solid #778899;
-  }
-
-  .body-cadastro::-webkit-scrollbar {
-    width: 5px;
-  }
-  
-  .body-cadastro::-webkit-scrollbar-thumb {
-    background-color: #DCDCDC;
-    border-radius: 20px;
-    border: 2px solid #778899;
+  .body::-webkit-scrollbar, .body-cadastro::-webkit-scrollbar {
+    width: 8px;
   }
 
   #navbar {
@@ -98,7 +82,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 15px;
   }
 
   .captureButton img {
@@ -119,7 +102,7 @@
   .card {
     display: flex;
     flex-direction: column;
-    margin: 2px;
+    margin: 5px;
     padding: 5px;
     background-image: url('../img/pokedex1.png');
     background-color: rgba(255,255,255,0.8);
