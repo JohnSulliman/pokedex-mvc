@@ -11,14 +11,21 @@
 
 <body>
     <nav id='navbar'>
-        <img src='img/logo.png' width='200px'/>
+        <a href="https://github.com/JohnSulliman/pokedex-mvc" class='githubImage'>
+            <img src='img/eevee.gif' width='70rem' alt='eevee' />
+            <img src='img/github.png' width='60rem'/>
+        </a>
     </nav>
 
     <header>
-        <a href='/'>
-            <img src='img/pokebola.png' width='35px'/>
-            <p>Cancelar</p>
-        </a>
+        <div class='cancelButton'>
+            <a href='/'>
+                <img src='img/pokebola.png' width='35px' alt='pokebola'/>
+            </a>
+
+            <img src='img/cancel.png' width='60px' alt='cancel-button' />
+        </div>
+
     </header>
     <section class='body-cadastro'>
         <h1>Captura</h1>
@@ -91,7 +98,7 @@
                         </div>
                         <div>
                             <label for='number'>Número: </label>
-                            <input class='input' type='number' name='number' required />
+                            <input class='input' type='number' name='number' min='001' required />
                         </div>
                     </div>
                 </section>
@@ -101,11 +108,11 @@
                     <div class='cadastro-infos'>
                         <div>
                             <label for='height'>Altura: </label>
-                            <input class='input' type='number' name='height' step="0.01" />
+                            <input class='input' type='number' name='height' step="0.01" min='0.01' />
                         </div>
                         <div>
                             <label for='weight'>Peso: </label>
-                            <input class='input' type='number' name='weight' step="0.01" />
+                            <input class='input' type='number' name='weight' step="0.01" min='0.01' />
                         </div>
                         <div>
                             <label for='category'>Categoria: </label>
@@ -119,10 +126,13 @@
                 </section>
             </div>
             
-            <button id='submitButton' type='submit'>
-                <img src='img/pokebola.png' width='35px'/>
-                <p>Gotcha!</p>
-            </button>
+            <div class='registerButton'>
+                <img src='img/gotcha.gif' width='60px' alt='gotcha!'/>
+
+                <button id='submitButton' type='submit'>
+                    <img src='img/pokebola.png' width='35px' alt='pokebola'/>
+                </button>
+            </div>
         </form>
     </section>
 

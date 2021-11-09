@@ -45,6 +45,27 @@
     border: 2px solid #778899;
   }
 
+  #navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    background-image: url('../img/logo.png');
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .githubImage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    cursor: pointer;
+    margin: 1rem;
+  }
+
   #message {
     padding: 10px;
     background-color: rgb(247, 231, 162);
@@ -73,6 +94,17 @@
     transform: scale(1.2);
   }
 
+  .captureButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  .captureButton img {
+    margin-top: -10px;
+  }
+
   .body {
     width: 90%;
     height: 80%;
@@ -95,12 +127,23 @@
     background-blend-mode: lighten;
     background-size: 100%;
     background-position-y: -5px;
+    transition: .3s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
   }
 
   .card p {
     margin: 5px;
   }
 
+  
+  .backButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   
   .card-list {
     display: flex;
@@ -140,6 +183,12 @@
 
   .details-infos p{
     margin-bottom: 15px;
+  }
+
+  .cancelButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .body-cadastro {
@@ -186,8 +235,17 @@
     width: 175px;
   }
 
+  .registerButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .registerButton img {
+    margin-bottom: -5px;
+  }
+
   #submitButton {
-    margin-top: 30px;
     background: transparent;
     border: none;
   }

@@ -11,7 +11,10 @@
 
 <body>
     <nav id='navbar'>
-        <img src='img/logo.png' width='200px'/>
+        <a href="https://github.com/JohnSulliman/pokedex-mvc" class='githubImage'>
+            <img src='img/eevee.gif' width='70rem' alt='eevee' />
+            <img src='img/github.png' width='60rem'/>
+        </a>
     </nav>
 
     <header>
@@ -21,10 +24,13 @@
             </section>
         <% }  %>
         
-        <a href='/cadastro'>
-            <img src='img/pokebola.png' width='35px'/>
-            <p>Capturar</p>
-        </a>
+        <div class='captureButton' >
+            <a href='/cadastro'>
+                <img src='img/pokebola.png' width='35px' alt='pokebola'/>
+            </a>
+
+            <img src='img/capture.gif' width='60px' alt='capture'/>
+        </div>
     </header>
 
     <section class='body'>
@@ -33,7 +39,7 @@
                 <a href='/detalhes/<%= pokemon.number %>' >
                     <div class='card'>
                         <b>Nº <%= pokemon.number %></b>
-                        <img src='<%= pokemon.image %>' />
+                        <img src='<%= pokemon.image %>' alt='pokemon-image'/>
                         <b><%= pokemon.name %></b>
 
                         <% if(pokemon.type2 == '') { %>
