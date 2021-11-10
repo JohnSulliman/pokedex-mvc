@@ -1,4 +1,4 @@
-# Pokedex (MVC)
+# Pokedex (MVC) <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -11,14 +11,14 @@
 
 > Projeto Pokedéx em MVC -Feito para o módulo 2 da Blue-EdTech-.
 
-## 💻 Pré-requisitos
+## 💻 Pré-requisitos <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
-* Você instalou a versão mais recente de `<Node>`
+* Você instalou a versão mais recente de `Node`
  
-## 🚀 Instalando `<Pokedex (MVC)>`
+## 🚀 Instalando `Pokedex (MVC)` <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 
-Para instalar o `<Pokedex (MVC)>`, siga estas etapas:
+Para instalar o `Pokedex (MVC)`, siga estas etapas:
 
 Caso não possua o npm, instale o Node.js em seu site oficial:
 
@@ -26,36 +26,36 @@ Caso não possua o npm, instale o Node.js em seu site oficial:
 
 Clone o projeto:
 ```
-<git clone https://github.com/danielafarias/Pokedex-Node.git>
+git clone https://github.com/JohnSulliman/pokedex-mvc.git
 ```
 
 Em seguida, adicione as bibliotecas e dependências necessárias:
 ```
-<cd Pokedex-Node>
+cd Pokedex-Node
 ```
 ```
-<npm init>
+npm init
 ```
 ```
-<npm i nodemon -D>
+npm i nodemon -D
 ```
 ```
-<npm i express --save>
+npm i express --save
 ```
 ```
-<npm i --save ejs>
+npm i --save ejs
 ```
 
-## ☕ Usando `<Pokedex (MVC)>`
+## ☕ Usando `Pokedex (MVC)` <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 
 ```
-<npm run dev>
+npm run dev
 ```
 E acesse o link <a href="http://localhost:3000/">localhost:3000</a>
 
-## 📫 Contribuindo para `<Pokedex (MVC)>`
+## 📫 Contribuindo para `Pokedex (MVC)` <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
-Para contribuir com `<Pokedex (MVC)>`, siga estas etapas:
+Para contribuir com `Pokedex (MVC)`, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <pokedex_seu_nome>`.
@@ -65,7 +65,7 @@ Para contribuir com `<Pokedex (MVC)>`, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores
+## 🤝 Colaboradores <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 
 As seguintes pessoas colaboraram para este projeto:
 
@@ -82,7 +82,7 @@ As seguintes pessoas colaboraram para este projeto:
   </tr>
 </table>
 
-## 📝 Licença
+## 📝 Licença <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
