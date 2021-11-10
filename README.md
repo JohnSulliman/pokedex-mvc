@@ -31,7 +31,7 @@ git clone https://github.com/JohnSulliman/pokedex-mvc.git
 
 Em seguida, adicione as bibliotecas e dependências necessárias:
 ```
-cd Pokedex-Node
+cd podekex-mvc
 ```
 ```
 npm init
