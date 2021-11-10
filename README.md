@@ -1,4 +1,5 @@
-# POKEDEX (MVC) <img src="https://drive.google.com/uc?export=view&id=1dyCVr72ubLcLnB02clVJSiw33gNFikVO" width="60px" alt="eevee.gif" >
+# POKEDEX (MVC) 
+<img src="https://drive.google.com/uc?export=view&id=1dyCVr72ubLcLnB02clVJSiw33gNFikVO" width="60px" alt="eevee.gif" >
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -86,5 +87,5 @@ As seguintes pessoas colaboraram para este projeto:
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#POKEDEX (MVC) <img src="https://drive.google.com/uc?export=view&id=1dyCVr72ubLcLnB02clVJSiw33gNFikVO" width="60px" alt="eevee.gif" >)<br>
+[⬆ Voltar ao topo](#POKEDEX (MVC))<br>
 
