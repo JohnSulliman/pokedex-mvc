@@ -1,4 +1,4 @@
-# Pokedex (MVC) <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+# Pokedex (MVC) <img src="https://drive.google.com/uc?export=view&id=1dyCVr72ubLcLnB02clVJSiw33gNFikVO" width="60px" alt="eevee.gif" >
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -11,12 +11,12 @@
 
 > Projeto Pokedéx em MVC -Feito para o módulo 2 da Blue-EdTech-.
 
-## 💻 Pré-requisitos <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+## 💻 Pré-requisitos <img src="https://drive.google.com/uc?export=view&id=1nVnUhl-scjmVIXWIMkTvcD2GvjjAFjfj" width="60px" alt="jolteon.gif" >
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 * Você instalou a versão mais recente de `Node`
  
-## 🚀 Instalando `Pokedex (MVC)` <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+## 🚀 Instalando `Pokedex (MVC)` <img src="https://drive.google.com/uc?export=view&id=1S0HOjJvMTTCcP4mttYqQcAM2UWaHxOM_" width="60px" alt="vaporeon.gif" >
 
 Para instalar o `Pokedex (MVC)`, siga estas etapas:
 
@@ -46,14 +46,14 @@ npm i express --save
 npm i --save ejs
 ```
 
-## ☕ Usando `Pokedex (MVC)` <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+## ☕ Usando `Pokedex (MVC)` <img src="https://drive.google.com/uc?export=view&id=1Bv9lE0MT2MkeA0kVekwPen83qBlhlgC0" width="80px" alt="flareon.gif" >
 
 ```
 npm run dev
 ```
 E acesse o link <a href="http://localhost:3000/">localhost:3000</a>
 
-## 📫 Contribuindo para `Pokedex (MVC)` <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+## 📫 Contribuindo para `Pokedex (MVC)` <img src="https://drive.google.com/uc?export=view&id=1RjoWhho7MECA1fb9jFMIJcJE9hGwF8av" width="65px" alt="umbreon.gif" >
 <!---Se o seu README for longo ou se você tiver algum processo ou etapas específicas que deseja que os contribuidores sigam, considere a criação de um arquivo CONTRIBUTING.md separado--->
 Para contribuir com `Pokedex (MVC)`, siga estas etapas:
 
@@ -65,7 +65,7 @@ Para contribuir com `Pokedex (MVC)`, siga estas etapas:
 
 Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-## 🤝 Colaboradores <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+## 🤝 Colaboradores <img src="https://drive.google.com/uc?export=view&id=15pFDmtCByojqVHiIyRViiEClyF2vjjZ_" width="80px" alt="espeon.gif" >
 
 As seguintes pessoas colaboraram para este projeto:
 
@@ -82,7 +82,7 @@ As seguintes pessoas colaboraram para este projeto:
   </tr>
 </table>
 
-## 📝 Licença <img src=http://pa1.narvii.com/6581/c5a2edf17f2df2cd2e9722eea6bae40326a80901_00.gif width="60px" alt="eevee.gif" >
+## 📝 Licença <img src="https://drive.google.com/uc?export=view&id=1l8w5F5FAjzSnZLhjZMCmrI3VYbhdDExn" width="65px" alt="leafeon.gif" >
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
