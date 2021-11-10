@@ -3,12 +3,16 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Pokemon Classic";
+    font-family: "Pokemon Classic", Arial;
   }
 
   a {
     text-decoration: none;
     color: #000000;
+  }
+
+  small {
+    font-family: Arial;
   }
   
   html,
