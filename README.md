@@ -1,4 +1,4 @@
-# Pokedéx (MVC)
+# Pokedex (MVC)
 
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
@@ -86,5 +86,5 @@ As seguintes pessoas colaboraram para este projeto:
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#pokedex-mvc)<br>
 
