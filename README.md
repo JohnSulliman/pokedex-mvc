@@ -86,5 +86,5 @@ As seguintes pessoas colaboraram para este projeto:
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#pokedex-mvc)<br>
+[⬆ Voltar ao topo](#Pokedex (MVC))<br>
 
